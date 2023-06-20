@@ -40,3 +40,15 @@ input:focus {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container {
+  @in;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar__link__logo {
+  display: flex;
+}
