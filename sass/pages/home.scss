@@ -3,21 +3,9 @@
 @use "../components/blog-post-card";
 @use "../layout/container";
 
-
-.header {
-  background: black;
-}
-.container {
-  @include mxn.container;
-  
-}
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: $black-color;
-  .navbar__link__logo{
-    display: flex;
-   gap: 130px;
-  
-}
+  align-items: center;
+  background-color: $black-color;
 }

@@ -41,14 +41,9 @@ input:focus {
   margin-right: auto;
 }
 
-.container {
-  @in;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
-}
-.navbar .navbar__link__logo {
-  display: flex;
+  align-items: center;
+  background-color: #000;
 }
