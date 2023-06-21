@@ -5,6 +5,7 @@
 @use "../utils/mixins" as mxn;
 @use "../utils/variables" as var;
 @import "../base/typography";
+@use "../layout/header";
 
 header {
   z-index: 1000;
