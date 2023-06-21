@@ -235,16 +235,19 @@ header {
   .compassion__box {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 104px;
-    margin-bottom: 256px;
     gap: 24px;
-    
+    .img-comp {
+        margin-top: 104px;
+      margin-bottom: 256px;
+    }
     .compassion__box__readmore {
-      margin-top: 80px;
+      margin-top: 80p;
      margin-bottom: 64px;
       display: flex;
       flex-direction: column;
+      img:first-child {
+        margin-top: 80px;
+      }
       a { 
         margin-bottom: 72px;
         text-align: center;
@@ -254,6 +257,8 @@ header {
 }
 
 // footer
+
+
 .footer {
   background: #000;
   .footer__container {
