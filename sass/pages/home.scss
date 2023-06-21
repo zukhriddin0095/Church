@@ -5,6 +5,7 @@
 @use "../utils/mixins" as mxn;
 @use "../utils/variables";
 @import "../base/typography";
+@use "../layout/header";
 
 header {
   position: fixed;
