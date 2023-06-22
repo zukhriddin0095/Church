@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+     <div class="scrolltop" onclick="scrollToTop();"><a href="#"></a></div>
     <header>
       <div class="container">
         <nav class="navbar">
@@ -31,7 +32,22 @@
           </div>
 
           <a class="navbar__btn" href="./contact.html">Contact us</a>
-        </nav>
+              <div id="navbar-responsive"> <button id="navbar-close">
+               <i class="fa-solid fa-square-xmark"></i>
+              </button> 
+                <div class="toogle__menu">
+                   <a href="./index.html" class="toogle0__link">Home</a>
+                 <a href="./about-us.html" class="toogle0__link">About</a>
+                 <a href="./blog.html" class="toogle0__link">sermon</a>
+                 <a href="./sermons.html" class="toogle0__link">sermon</a>
+                 <a href="./contact.html" class="toogle0__link">contact</a>
+                </div>
+            </div>
+                  
+              <button id="navbar-open">
+                <i class="fa-solid fa-bars"></i>
+               </button></nav>
+        
       </div>
     </header>
     <main>
@@ -181,7 +197,64 @@
           </div>
         </div>
       </section>
-      
+        <section class="around">
+          <div class="container">
+            <div class="around__card">
+              <div class="around__aside">
+                <h2>We want to serve the world around us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+                <a href="">Visit</a>
+              </div>
+              <div class="around__bside">
+                <img src="./images/home/Quote icon.png" alt="icon">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="blog">
+              <h5>Read our Blog</h5>
+              <h3>SHARE, INSPIRE, INNOVATE</h3>
+              <div class="blog__card">
+
+                <div class="blog__intro">
+                  <h5>Relationship</h5>
+                   <h3>WATCH AND LISTEN TO OUR SERMONS</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                   <h3 class="blog__intro__name">By Mathew Johnson</h3>
+                   <h3 class="blog__intro__name">Tuesday 13 May, 2021</h3>
+                </div>
+
+                <div class="blog__intro">
+                  <h5>Relationship</h5>
+                   <h3>WATCH AND LISTEN TO OUR SERMONS</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                   <h3 class="blog__intro__name">By Mathew Johnson</h3>
+                   <h3 class="blog__intro__name">Tuesday 13 May, 2021</h3>
+                </div>
+
+                <div class="blog__intro">
+                  <h5>Relationship</h5>
+                   <h3>WATCH AND LISTEN TO OUR SERMONS</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                   <h3 class="blog__intro__name">By Mathew Johnson</h3>
+                   <h3 class="blog__intro__name">Tuesday 13 May, 2021</h3>
+                </div>
+
+                <div class="blog__intro">
+                  <h5>Relationship</h5>
+                   <h3>WATCH AND LISTEN TO OUR SERMONS</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                   <h3 class="blog__intro__name">By Mathew Johnson</h3>
+                   <h3 class="blog__intro__name">Tuesday 13 May, 2021</h3>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
     <footer class="footer">
       <div class="container footer__container">
@@ -214,5 +287,28 @@
         </div>
       </div>
     </footer>
+    <script>
+      window.addEventListener('scroll', function(){
+    var scroll = document.querySelector('.scrolltop');
+    scroll.classList.toggle("active" , window.scrollY > 500)
+})
+function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+      function openNavbar() {
+  document.getElementById("navbar-responsive").style.left = "0";
+  // document.getElementById("navbar-responsive").style.top = "0";
+}
+function closeNavbar() {
+  document.getElementById("navbar-responsive").style.left = "-100%";
+  // document.getElementById("navbar-responsive").style.top = "-100%";
+}
+
+document.getElementById("navbar-open").addEventListener("click", openNavbar);
+document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+    </script>
   </body>
 </html>
