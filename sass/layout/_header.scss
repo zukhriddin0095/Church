@@ -1,15 +1,1 @@
-@use "../_global.scss";
 
-header {
-  & .container {
-    & nav.navbar {
-      & .navbar__link__logo {
-        & .navbar__link {
-          & ul {
-            display: flex;
-          }
-        }
-      }
-    }
-  }
-}
