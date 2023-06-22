@@ -136,9 +136,9 @@ header {
     position: fixed;
     bottom: 800px;
     right: 30px;
-    width: 70px;
-    height: 100px;
-    background: rgb(248, 248, 248) url("../../images/home/backtop.png") no-repeat;
+    width: 50px;
+    height: 80px;
+    background: rgb(248, 248, 248) url("/images/home/backtop.png") no-repeat;
     background-size: contain;
     background-position: center;
     cursor: pointer;
@@ -158,7 +158,7 @@ header {
 // hero
 
 .home {
-  background: url(../../images/home/home-page.jpg) no-repeat;
+  background: url(/images/home/home-page.jpg) no-repeat;
   background-size: cover;
   background-position: center 80px;
   .container {
@@ -578,7 +578,7 @@ header {
 }
 
 .around {
-  background: url(../../images/home/around\ us.png) no-repeat;
+  background: url(/images/home/around\ us.png) no-repeat;
   background-size: cover;
   background-position: center 0;
   height: 736px;
