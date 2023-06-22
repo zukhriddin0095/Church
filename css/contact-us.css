@@ -43,9 +43,6 @@ input:focus {
   margin-right: auto;
 }
 
-header .container .navbar {
-  background: rgb(13, 13, 13);
-}
-header .container .navbar .navbar__link__logo .navbar__logo ul.navbar__link {
+header .container {
   display: flex;
 }
