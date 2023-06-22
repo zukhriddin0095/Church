@@ -189,7 +189,7 @@ header .toogle__menu .toogle0__link:hover {
   right: 30px;
   width: 50px;
   height: 80px;
-  background: rgb(248, 248, 248) url("/images/home/backtop.png") no-repeat;
+  background: rgb(248, 248, 248) url("../images/home/backtop.png") no-repeat;
   background-size: contain;
   background-position: center;
   cursor: pointer;
@@ -208,7 +208,7 @@ header .toogle__menu .toogle0__link:hover {
 }
 
 .home {
-  background: url(/images/home/home-page.jpg) no-repeat;
+  background: url(../images/home/home-page.jpg) no-repeat;
   background-size: cover;
   background-position: center 80px;
 }
@@ -652,7 +652,7 @@ header .toogle__menu .toogle0__link:hover {
 }
 
 .around {
-  background: url(/images/home/around\ us.png) no-repeat;
+  background: url(../images/home/around\ us.png) no-repeat;
   background-size: cover;
   background-position: center 0;
   height: 736px;
